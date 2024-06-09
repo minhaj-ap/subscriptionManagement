@@ -4,6 +4,10 @@
 # Ignore .env files in subdirectories of the parent directory
 */.env
 
+# Ignore all the files in .next
+
+*/.next
+
 # Ignore .env.local files in subdirectories of the parent directory
 */.env.local
 
