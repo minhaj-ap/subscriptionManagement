@@ -1,0 +1,23 @@
+# Ignore node_modules directories in subdirectories of the parent directory
+*/node_modules/
+
+# Ignore .env files in subdirectories of the parent directory
+*/.env
+
+# Ignore .env.local files in subdirectories of the parent directory
+*/.env.local
+
+# Ignore .env.development.local files in subdirectories of the parent directory
+*/.env.development.local
+
+# Ignore .DS_Store files in subdirectories of the parent directory
+*/.DS_Store
+
+# Ignore Thumbs.db files in subdirectories of the parent directory
+*/Thumbs.db
+
+# Ignore npm debugging logs in subdirectories of the parent directory
+*/npm-debug.log*
+
+# Ignore yarn lockfiles in subdirectories of the parent directory
+*/yarn.lock
