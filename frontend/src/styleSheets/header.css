@@ -1,0 +1,61 @@
+.header-container {
+  padding: 0.5em;
+  background: #2a629a;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+.header-link-item p {
+  font-size: 0.5em;
+}
+.MuiIconButton-root {
+  color: #ffda78;
+  gap: 0.2em;
+}
+.header-menu {
+  display: none;
+  color: #ffda78;
+}
+.header.active {
+  display: flex;
+  flex-direction: column;
+}
+.header-title{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.header-title>button {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .header-links {
+    display: none;
+  }
+  .header-menu {
+    display: block;
+  }
+  .header.active .header-title button {
+    display: flex;
+
+  }
+  .header.active .header-menu {
+    display: none;
+  }
+  .header.active .header-links {
+    display: block;
+    width: 100%;
+    left: 1em;
+    position: relative;
+  }
+}
