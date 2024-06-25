@@ -1,0 +1,11 @@
+.homePage {
+  height: max-content;
+  width: 100vw;
+}
+.homePage-heading {
+  text-align: center;
+  margin: 2em;
+}
+.homePage-heading *{
+    padding-top: 0.5em;
+}

@@ -39,6 +39,9 @@
   display: none;
 }
 @media screen and (max-width: 900px) {
+  .header-title h1{
+    font-size: 1.5em;
+  }
   .header-links {
     display: none;
   }
